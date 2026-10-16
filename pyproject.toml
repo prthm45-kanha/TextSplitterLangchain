@@ -1,0 +1,21 @@
+[project]
+name = "textsplitters"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "prthm45-kanha", email = "agrawalpratham2706@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.4.6",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.11",
+]
+
+[project.scripts]
+textsplitters = "textsplitters:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
